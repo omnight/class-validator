@@ -1,3 +1,3 @@
-declare var window: any;
+declare var window: Window;
 
 declare module "ansicolor";
