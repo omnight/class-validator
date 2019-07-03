@@ -17,7 +17,7 @@ export class Validator {
 
     private validatorJs = require("validator");
     private libPhoneNumber = {
-        phoneUtil: require("google-libphonenumber").PhoneNumberUtil.getInstance(),
+        phoneUtil: { isValidNumber: (o) => true, parseAndKeepRawInput: (a, b) => null }
     };
 
     /**
