@@ -1,3 +1,3 @@
-declare var window: Window;
+declare var window: Window & typeof globalThis;
 
 declare module "ansicolor";
